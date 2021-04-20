@@ -15,7 +15,7 @@ from dash.dependencies import Input, Output
 
 app = dash.Dash(__name__)
 
-df = pd.read_csv("C:\\Users\\20177287\\.spyder-py3\\owid-covid-data.csv")
+df = pd.read_csv("owid-covid-data.csv")
 
 
 
